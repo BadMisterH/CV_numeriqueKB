@@ -1,0 +1,279 @@
+body{
+
+    background: gray ;
+
+}
+
+
+.page{
+
+    width: 850px;
+    margin: auto;
+    font-family: 'Source sans Pro', Calibri, Tahomo, sans-serif;
+    font-size: 1rem;
+    border-bottom: 2px solid #3388CC;
+    box-shadow: 2px 4px 3px block;
+    padding: 20px;
+    background: url(img/fond2Cv.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+.page2{
+
+    height: 248.5vh;
+    width: 15vw;
+    float: left;
+    margin:-20px;
+    margin-right:10px;
+
+}
+
+.photo p{
+
+    width: 160px;
+}
+
+.infoPhoto{
+
+    padding-bottom: 180px;
+    width: auto;
+}
+
+.info{
+
+    float: right;
+
+}
+
+h1{
+    font-size: 1.25rem;
+    text-align: left;
+    margin-left: 40px;
+    text-decoration: underline;
+}
+
+
+img{
+
+    width : 150%;
+    height: auto;
+    margin-top: 20px;
+    margin-left: -80px;
+    
+
+}
+
+.section{
+
+    margin-bottom: 70px;
+
+}
+
+.sec-gauche{
+
+    float: left;
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-left: 40px;
+}
+
+.sec-droite{
+
+    margin-left: 430px;
+    margin-top:43.5px;
+
+}
+
+h2{
+
+    font-size: 1.375rem;
+    color: #3388DB;  
+    border-bottom: 3px solid #3388DB;
+    margin-left: 215px;
+}
+
+
+.durée{
+
+    font-weight: normal;
+    font-style: italic;
+    font-size: 1rem; /*changer en rem*/
+}
+
+.Titre{
+
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+#forme-gauche p{margin-bottom: 36px;}
+
+#exp-gauche p{margin-top: 10px;}
+
+#Langue-d-sub p{margin-top: 24px;}
+
+#langue-droite{line-height: 25px;}
+
+#interet-droite{margin-top: 56px;}
+
+#O{margin-top: 24px;}
+
+#Y{margin-top: 26px;}
+
+strong{font-size: 1.4375rem;}
+
+.photo p{
+
+    margin-left: 30px;
+    font-size: 1.1875rem;
+    max-width:200px;
+    font-weight: bold;
+}
+
+.photo h1{
+
+    font-size: 2.1875rem;
+}
+
+.miseEnPage{
+    
+    display: flex;
+    flex-direction: column;
+    background-color: lawngreen;
+    height: 100vh;
+    width: 30vh;
+}
+
+#maitre p{ margin-top: 26px;}
+
+#QQ{margin-top: 30px;}
+
+.Q{margin-top: 58px;}
+
+.T{ margin-top: 33px;}
+
+.L{margin-top: 25px;}
+
+ #P{margin-top: -10px;}
+
+ a{
+     text-decoration: none;
+     color: black;
+     font-weight: bold;
+ }
+
+
+ 
+
+li p{
+    text-align: center;
+}
+
+
+.retour a p {
+ 
+    text-align: center;
+    color: blue;
+}
+
+@media only screen and (max-width: 1072px) {
+
+  
+    .info{
+
+        width: 630px;
+
+    }
+
+    img{
+
+        background: url(img/Badr2.jpg) no-repeat center;
+        margin-right: 80px;
+        height: 180px;
+        width: 260px;
+
+    }
+
+    .photo h1{
+
+        font-size: 1.5625rem;
+        margin-left: 20px;
+    }
+
+    .sec-gauche{
+
+        margin-left: -30px;
+    }
+
+    .photo p{
+
+    width: 70px;
+    font-size: 0.8rem;
+    
+    }
+    
+    .sec-gauche p{
+
+        margin-left: 180px;
+        font-size:0.75rem;
+        padding-bottom: 35px;
+    }
+
+
+   .sec-droite p{
+
+    padding-bottom:10px;
+
+   }
+
+   .sec-droite #Loisir p{
+
+    padding-bottom: 20px;
+
+   }
+
+   .sec-gauche .L p{
+
+    padding-bottom: 28px;
+
+   }
+
+    .Q p{
+
+        margin-right: 178px;
+        padding-bottom: 75px;
+        margin-top: -30px;
+    }
+    
+
+    
+    .L p{
+
+        padding-bottom: 12px;
+
+
+    }
+
+    .F p{
+
+        padding-bottom: 40px;
+
+    }
+
+    .N p{
+
+        padding-bottom: 29px;
+    }
+
+
+   
+    .retour a p{
+
+        color: blue;
+        text-align: center;
+    }
+
+  }
+
